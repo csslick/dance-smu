@@ -1,0 +1,36 @@
+:root {
+  --main-color: #0C2D83;  /* 메인 컬러 */
+  --container-width: 1440px; /* 페이지 폭 */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-size: 18px;
+  background: #fff;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+h2 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.container {
+  width: var(--container-width);
+  outline: 1px solid red;
+}
