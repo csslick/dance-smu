@@ -1,6 +1,6 @@
 :root {
   --main-color: #0C2D83;  /* 메인 컬러 */
-  --container-width: 1200px; /* 페이지 폭 */
+  --container-width: 1440px; /* 페이지 폭 */
 }
 
 * {
