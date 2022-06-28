@@ -30,6 +30,11 @@ h2 {
   font-weight: 800;
 }
 
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .container {
   width: var(--container-width);
   /* outline: 1px solid red; */
@@ -75,7 +80,7 @@ h2 {
 
 #util-menu {
   position: absolute;
-  right: 55px;
+  right: 65px;
   top: 44px;
   color: #666;
   font-size: 14px;
@@ -91,14 +96,15 @@ h2 {
 
 #language {
   margin-left: 28px;
+  background-color: transparent;
 }
 
 #toggleBtn {
   position: absolute;
   right: 20px;
-  top: 40px;
-  width: 18px;
-  height: 16px;
+  top: 39px;
+  width: 28px;
+  height: 28px;
   border: none;
   background-color: transparent;
 }
@@ -110,4 +116,56 @@ h2 {
   height: 18px;
   border: 1px solid #666;
   border-radius: 10px;
+}
+
+#main-visual {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#main-visual h2 {
+  font-size: 46px;
+  line-height: 65px;
+  letter-spacing: 0.02em;
+}
+
+#main-visual .container {
+  height: 550px;
+  background: #ccc;
+  position: relative;
+  background-image: url('../images/mc01_bg.jpg');
+  background-size: cover;
+}
+
+#main-visual .container h2 {
+  position: absolute;
+  left: 59px;
+  top: 178px;
+  color: #fff;
+}
+
+#intro .row {
+  background: pink;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+#intro .col {
+  width: 335px;
+  outline: 1px solid #ccc;
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+}
+
+#intro .col img {
+  width: 335px;
+  height: 315px;
+}
+
+#intro .col h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
