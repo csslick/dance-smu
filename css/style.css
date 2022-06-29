@@ -268,16 +268,22 @@ section {
   border-top: 1px solid #aaa;
 }
 
-
+/* 모달창 */
 #modal {
   background: #fff;
-  position: fixed;
+  position: absolute;
   width: 450px;
   height: 420px;
   left: 50%;
   top: 30%;
   text-align: center;
   border: 1px solid #ccc;
+  z-index: 99;
+  display: none;
+}
+
+#modal.on {
+  display: block;
 }
 
 #modal header {
