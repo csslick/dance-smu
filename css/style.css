@@ -3,7 +3,7 @@
   --container-width: 1440px; /* 페이지 폭 */
 }
 
-* {
+* { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -198,7 +198,70 @@ section {
   height: 80px;
 }
 
+/* SNS 배너  */
 #sns-banner .container {
   background-color: #ccc;
+  background-image: url(../images/sns-banner.jpg);
   height: 163px;
+  position: relative;
+}
+
+.banner-title h4 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.banner-title p {
+  font-size: 16px;
+}
+
+.banner-title {
+  position: absolute;
+  left: 65px;
+  top: 40px;
+  color: #fff;
+}
+
+#sns-banner .sns {
+  position: absolute;
+  right: 78px;
+  top: 64px;
+}
+
+#sns-banner .sns a {
+  margin-left: 38px;
+  display: inline-block;
+  height: 48px;
+  /* outline: 1px solid red; */
+}
+
+#sns-banner .sns a:last-child {
+  /* outline: 1px solid blue; */
+  position: relative;
+  top: -5px;
+}
+
+#main-footer {
+  font-size: 14px;
+  margin-top: 100px;
+}
+
+#main-footer .address,
+#main-footer .copy {
+  color: #666;
+}
+
+#main-footer .footer-menu {
+  margin-bottom: 20px;
+}
+
+#main-footer p {
+  margin-bottom: 8px;
+}
+
+#main-footer .container {
+  padding: 46px 0;
+  padding-left: 20px;
+  border-top: 1px solid #aaa;
 }
